@@ -256,6 +256,24 @@ $ go get -u github.com/jinzhu/gorm
 
 For a simple but complete "Hello World" example app, see [Build a Go App with CockroachDB and GORM](build-a-go-app-with-cockroachdb-gorm.html).
 
+### XORM
+
+**Support level:** Full
+
+To install [XORM](http://xorm.io):
+
+{% include copy-clipboard.html %}
+~~~ shell
+$ go get -u github.com/lib/pq # dependency
+~~~
+
+{% include copy-clipboard.html %}
+~~~ shell
+$ go get -u xorm.io/xorm
+~~~
+
+For a simple but complete "Hello World" example app, see [Build a Go App with CockroachDB and XORM](build-a-go-app-with-cockroachdb-xorm.html).
+
 </section>
 
 <section class="filter-content" markdown="1" data-scope="ruby">
